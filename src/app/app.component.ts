@@ -29,7 +29,7 @@ export class AppComponent {
   }
   showSnackbarTopPosition(content, action, duration) {
     this.snackBar.open(content, action, {
-      duration: 2000,
+      duration: null,
       verticalPosition: 'top', // Allowed values are  'top' | 'bottom'
       horizontalPosition: 'center', // Allowed values are 'start' | 'center' | 'end' | 'left' | 'right'
     });
